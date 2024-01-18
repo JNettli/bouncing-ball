@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: #02020b;
+    overflow: hidden;
+    margin: 0;
+}
+
+.reload {
+    width: 200px;
+    padding: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    background-color: cyan;    
+    border: 0;
+    border-radius: 16px;
+    cursor: pointer;
+    margin: 8px;
+    position: absolute;
+    transition: ease-in-out .3s;
+}
+
+.reload:hover {
+    background-color: rgb(20, 181, 181);
+    transition: ease-in-out .3s;
+}
