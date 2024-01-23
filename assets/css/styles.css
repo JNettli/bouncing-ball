@@ -5,6 +5,7 @@
 html, body {
     background-color: #02020b;
     margin: 0;
+    overflow: hidden;
 }
 
 .reload {
@@ -25,6 +26,10 @@ html, body {
 .reload:hover {
     background-color: orange;
     transition: ease-in-out .2s;
+}
+
+.reload::selection {
+    background-color: transparent;
 }
 
 #circle {
